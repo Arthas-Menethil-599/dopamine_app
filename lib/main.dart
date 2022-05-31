@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             SizedBox(
-              height: 200.0,
+              height: MediaQuery.of(context).size.height * 0.30,
             ),
             Text(
               'Значение счетчика:',
